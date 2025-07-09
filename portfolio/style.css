@@ -1,0 +1,206 @@
+.open-sans-normal {
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
+/* shared style */
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #fd6e0a;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #757575;
+}
+
+.secondary-background {
+  background-color: #fff8f3;
+}
+
+/* header */
+
+.header {
+  background-image: url(/images/developer.png), url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+/* nav styles */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+
+.dark-2 {
+  color: #474747;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+/* banner style */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+
+.banner-content {
+  max-width: 580px;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-title {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.banner-description {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.banner-image {
+  width: 580px;
+}
+
+/* about style  abouter vitorer likha*/
+
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+.item-description {
+  font-weight: bold;
+}
+
+/* main style */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+/* skills er section */
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6);
+}
+
+/* resume section styles */
+
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+
+.experience-description,
+.experience-sub-title {
+  color: #775757;
+}
+
+.experience-sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.resume hr {
+  margin: 30px 5px;
+}
+
+/* resume dawonload */
+
+.resume-dawonload {
+  margin: 50px;
+}
+
+/* footer style */
+
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 117px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+footer input[type='text'],
+footer input[type='email'],
+footer textarea {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
